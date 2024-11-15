@@ -32,14 +32,9 @@ void TXT8::reset()
     this->cpu.pc = 0;
     this->cpu.sp = 0;
 
-    for(auto& reg : this->cpu.reg)
-        reg = 0;
-
-    for(auto& level : this->cpu.stack)
-        level = 0;
-
-    for(auto& cell : this->mem)
-        cell = 0;
+    this->cpu.reg.fill(0);
+    this->cpu.stack.fill(0);
+    this->mem.fill(0);
 }
 
 void TXT8::loadProgram(const char* path)
