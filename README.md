@@ -1,6 +1,17 @@
 
 # TXT-8 Text-Based Virtual Machine
 
+<pre>
+ /$$$$$$$$ /$$   /$$ /$$$$$$$$       /$$$$$$ 
+|__  $$__/| $$  / $$|__  $$__/      /$$__  $$
+   | $$   |  $$/ $$/   | $$        | $$  \ $$
+   | $$    \  $$$$/    | $$ /$$$$$$|  $$$$$$/
+   | $$     >$$  $$    | $$|______/ >$$__  $$
+   | $$    /$$/\  $$   | $$        | $$  \ $$
+   | $$   | $$  \ $$   | $$        |  $$$$$$/
+   |__/   |__/  |__/   |__/         \______/ 
+</pre>
+
 The TXT-8 is a simple 8-bit virtual machine based on the command line. 
 
 TXT-8 has a minimal instruction set which demonstrates the fundamental aspects of virtualization.
