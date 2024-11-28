@@ -23,7 +23,7 @@ Components and specifications of TXT-8.
 
 ### CPU
 - 8x 8-bit general-purpose registers.
-- 8-level 12-bit address stack (12 bytes).
+- 8-level 12-bit address stack. 
 - 12-bit stack pointer.
 - 12-bit program counter.
 - 12-bit index register.
