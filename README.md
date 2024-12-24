@@ -37,11 +37,11 @@ Components and specifications of TXT-8.
 - 8-bit buffer pointer that points to the end of the buffer.
 
 ## Instruction Set
-A: 8-bit register (4 bytes).
+X: 8-bit register (4-bit operand).
 
-B: 8-bit register (4 bytes).
+Y: 8-bit register (4-bit operand).
 
-ADDR: 12-bit address (12 bytes).
+ADDR: 12-bit address (12-bit operand).
 
 | Opcode | Mnemonic | Operands | Description                                                                    |
 | ------ | -------- | -------- | ------------------------------------------------------------------------------ |
